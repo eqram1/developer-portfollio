@@ -48,13 +48,37 @@ a {
     flex: none;
 }
 
+
 h1 {
     font-size: 50px;
 }
 
 .link-button {
     text-decoration: none;
-    background-color: aqua;
+    background-image: linear-gradient(aqua, tomato);
     padding: 15px 45px;
     border-radius: 5px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.items {
+    width: 100px;
+    height: 100px;
+    background: burlywood;
+
+}
+
+
+.item-2 {
+    background: red;
+    margin-left: -15px;
+}
+
+.other {
+    padding: 200px;
 }
